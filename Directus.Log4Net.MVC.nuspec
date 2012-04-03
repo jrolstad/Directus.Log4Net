@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Directus.Log4Net.MVC</id>
+        <version>1.0.1</version>
+        <authors>Josh Rolstad</authors>
+        <owners>Josh Rolstad</owners>
+        <description>Log4net additions for ASP.NET MVC projects</description>
+		<projectUrl>http://github.com/jrolstad/Directus.Log4Net</projectUrl>
+        <copyright>Copyright 2011</copyright>
+        <tags>system mvc</tags>
+         <dependencies>
+			<dependencies id="log4net" version="2.0.0" />
+        </dependencies>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System.Web.Mvc" targetFramework=".NETFramework4.0" />
+		</frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="Directus.Log4Net.MVC\bin\Release\Directus.Log4Net.MVC.dll" target="lib\net40"/>
+    </files>
+	
+</package>
