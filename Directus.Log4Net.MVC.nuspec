@@ -8,9 +8,9 @@
         <description>Log4net additions for ASP.NET MVC projects</description>
 		<projectUrl>http://github.com/jrolstad/Directus.Log4Net</projectUrl>
         <copyright>Copyright 2011</copyright>
-        <tags>system mvc</tags>
+        <tags>system mvc logging errorloggin</tags>
          <dependencies>
-			<dependencies id="log4net" version="2.0.0" />
+			<dependency id="log4net" version="2.0.0" />
         </dependencies>
 		<frameworkAssemblies>
 			<frameworkAssembly assemblyName="System.Web.Mvc" targetFramework=".NETFramework4.0" />
